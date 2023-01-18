@@ -1,0 +1,46 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+button {
+    margin-top: 15px;
+    padding: 5px 5px;
+}
+
+.user-input {
+    display: inline-flex;
+    margin: 10px 10px;
+}
+
+.budget {
+    border: 5px solid #5fdd5f;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.expenses {
+    border: 5px solid #dd5f5f;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+#budget-total {
+    color: #5fdd5f;
+}
+
+#expenses-total {
+    color: #dd5f5f;
+}
+
+.display-results {
+    display: grid;
+}
+
+.expenses-display {
+    display: grid;
+}
