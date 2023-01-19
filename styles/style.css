@@ -19,13 +19,13 @@ button {
 
 .budget {
     border: 5px solid #5fdd5f;
-    padding: 5px 5px;
+    padding: 50px 50px;
     border-radius: 5px;
 }
 
 .expenses {
     border: 5px solid #dd5f5f;
-    padding: 5px 5px;
+    padding: 50px 50px;
     border-radius: 5px;
 }
 
@@ -42,5 +42,5 @@ button {
 }
 
 .expenses-display {
-    display: grid;
+    display: list-item;
 }
