@@ -1,15 +1,23 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
 }
 
 body {
-    background-color: #fafafa;
+    background-color: #1d1d1d;
+    color: #fff;
+    text-align: center;
 }
 
 button {
+    background-color: #4f4f4f;
+    border-color:#2c2c2c;
+    color: #fff;
     margin-top: 15px;
     padding: 5px 5px;
+}
+
+ul li {
+    list-style: circle;
 }
 
 .user-input {
@@ -19,14 +27,15 @@ button {
 
 .budget {
     border: 5px solid #5fdd5f;
+    border-radius: 20px;
     padding: 50px 50px;
-    border-radius: 5px;
+
 }
 
 .expenses {
     border: 5px solid #dd5f5f;
+    border-radius: 20px;
     padding: 50px 50px;
-    border-radius: 5px;
 }
 
 #budget-total {
